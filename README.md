@@ -2,6 +2,19 @@
 Isn't it so tiring having to remember one entire master password to your keepass file? 
 If only we could store our master passwords inside our keepass databases. Then we wouldn't even have to remember the master password! 
 Well with the Keepass forgotten password attempter, now you don't even need a password! Just give it a dictionary, and watch it spin for hours as it attempts every combination you provided. Hopefully you unlock your database soon
+----
+
+This tool can be used to brute force a list of known passwords (Key files also supported) against a Keepass database. 
+
+I have found this tool to be effective when knowing a list of possible passwords beforehand.
+
+This tool has few dependencies and requires little technical ability without the need to download any application or hash cracking tools
+
+Predefining a list or writing some logic elsewhere to generate your list of words is recommended but the generation of words is not functionality this tool provides.
+
+## Alternatives
+- John-the-ripper and Hashcat (Full functionality tools)
+- Try to remember the password 
 
 ### Please read included licence agreement.
 
@@ -17,16 +30,16 @@ This was efficient to write - not the best code.
 I hold no responsibility for bugs or lack of functionality.
 Please use and make changes as needed.
 
-## Suggested use
-I have found this tool to be effective when knowing the password is likely to be one of a set list of passwords. 
-Predefining a list or writing some logic elsewhere to generate your list of words is recommended but the generation of words is not functionality this tool provides.
 
 # Setup
 - Install latest Keepass 2.x
 - Install KPScript.exe plugin (https://keepass.info/plugins.html)
-- See ExecuteKeepassTest.Template.ps1 for execution
+
+# Usage
 `.\CheckKeepassPassword.ps1 "C:\Program Files\KeePass Password Safe 2\KPScript.exe" "C:\mydatabase.kdbx" @('password', 'password1')`
-- Logic is in CheckKeepassPassword.ps1
+or for password and key file combinations:
+`.\CheckKeepassPassword.ps1 "C:\Program Files\KeePass Password Safe 2\KPScript.exe" "C:\mydatabase.kdbx" @('password', 'password1') "C:\MyKeyFile.Key"`
+- See ExecuteKeepassTest.Template.ps1 for template powershell execution script
 
 # Future enhancements
 - File input for password list
