@@ -2,11 +2,11 @@
 
 Isn't it so tiring having to remember one entire master password to your keepass file?
 
-Well with the Keepass forgotten password attempter, now you don't even need a password!
+Well with the Keepass forgotten password attempter, now you don't even need to be that accurate!
 
-Just give it a list of words, and watch it spin for hours as it attempts every combination you provided. 
+Just give it a list of words that you think the password could be, and watch it spin for hours as it attempts every combination you provided. 
 
-I Hope you unlock your database soon
+I Hope you unlock your database soon.
 
 ### Please read included licence agreement.
 
