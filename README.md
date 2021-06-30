@@ -43,9 +43,12 @@ Please use and make changes as needed.
 
 # Usage
 `.\CheckKeepassPassword.ps1 "C:\Program Files\KeePass Password Safe 2\KPScript.exe" "C:\mydatabase.kdbx" @('password', 'password1')`
+
 or for password and key file combinations:
+
 `.\CheckKeepassPassword.ps1 "C:\Program Files\KeePass Password Safe 2\KPScript.exe" "C:\mydatabase.kdbx" @('password', 'password1') "C:\MyKeyFile.Key"`
-- See ExecuteKeepassTest.Template.ps1 for template powershell execution script
+
+See ExecuteKeepassTest.Template.ps1 for longer template powershell execution script
 
 # Future enhancements
 - File input for password list
