@@ -1,3 +1,4 @@
+& {
 $KeepassExe = "C:\Program Files\KeePass Password Safe 2\KPScript.exe"
 $DatabaseFile = "C:\mydatabase2.kdbx"
 $Keyfile = "C:\Keys\keyfile.key"
@@ -17,3 +18,4 @@ $Passwords = @(
     )
 
 CheckKeepassPassword $KeepassExe $DatabaseFile $Passwords
+}
