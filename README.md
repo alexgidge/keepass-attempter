@@ -8,34 +8,34 @@ Just give it a list of words, and watch it spin for hours as it attempts every c
 
 I Hope you unlock your database soon
 
+### Please read included licence agreement.
+
+### For use on databases only with expressed permission by the database owner. I take no responsibility for your usage of this tool.
+
 ## Summary
 
-This tool can be used to brute force a list of known passwords (Key files also supported) against a Keepass database. 
+This tool can be used automate typing in a list of known passwords (Key files also supported) against a Keepass database. 
 
-I have found this tool to be effective when knowing a list of possible passwords beforehand.
+Manual typing into the KeePass master password dialogue box can be time consuming due to processing time & every 5 attempts users must manually reselect the database file.
 
-This tool has few dependencies and requires little technical ability without the need to download any application or hash cracking tools
+I have found this tool to be effective when knowing a list of possible passwords beforehand. Or it will confirm your password is not in the supplied list.
 
 Predefining a list or writing some logic elsewhere to generate your list of words is recommended but the generation of words is not functionality this tool provides.
 
 ## Alternatives
-- John-the-ripper and Hashcat (Full functionality tools)
+- John-the-ripper and Hashcat (Full functionality cracking/brute forcing tools)
 - Try to remember the password 
-
-### Please read included licence agreement.
-
-### For use on databases only with expressed permission by the database owner.
 
 ## Requirements
 - Windows Powershell
 - KeePass.exe
 - KPScript.exe plugin for KeePass
+- A list of possible passwords
 
 ## Caveats
-This was efficient to write - not the best code. 
+This was fast to write - not the best script. 
 I hold no responsibility for bugs or lack of functionality.
 Please use and make changes as needed.
-
 
 # Setup
 - Install latest Keepass 2.x
