@@ -1,9 +1,14 @@
 # keepass-attempter
 
-Isn't it so tiring having to remember one entire master password to your keepass file? 
-Well with the Keepass forgotten password attempter, now you don't even need a password! 
-Just give it a list of words, and watch it spin for hours as it attempts every combination you provided. I Hope you unlock your database soon
-----
+Isn't it so tiring having to remember one entire master password to your keepass file?
+
+Well with the Keepass forgotten password attempter, now you don't even need a password!
+
+Just give it a list of words, and watch it spin for hours as it attempts every combination you provided. 
+
+I Hope you unlock your database soon
+
+## Summary
 
 This tool can be used to brute force a list of known passwords (Key files also supported) against a Keepass database. 
 
