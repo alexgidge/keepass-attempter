@@ -1,21 +1,10 @@
-& {
 $KeepassExe = "C:\Program Files\KeePass Password Safe 2\KPScript.exe"
 $DatabaseFile = "C:\mydatabase2.kdbx"
-$Keyfile = "C:\Keys\keyfile.key"
+$Keyfile = "C:\Keys\keyfile.key" #KeyFile optional
 $Passwords = @(
     'password'
     'password1'   
     )
 
-CheckKeepassPassword $KeepassExe $DatabaseFile $Passwords $Keyfile
+.\CheckKeepassPassword.ps1 $KeepassExe $DatabaseFile $Passwords $Keyfile 
 
-
-$KeepassExe = "C:\Program Files\KeePass Password Safe 2\KPScript.exe"
-$DatabaseFile = "C:\mydatabase.kdbx"
-$Passwords = @(
-    'password'
-    'password1'   
-    )
-
-CheckKeepassPassword $KeepassExe $DatabaseFile $Passwords
-}
